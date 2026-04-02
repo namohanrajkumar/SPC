@@ -1,0 +1,35 @@
+{
+  "prediction_id": "ETP-PRED-20260308-234704",
+  "timestamp": "2026-03-08T23:47:04.464411",
+  "generations_simulated": 50,
+  "confidence_level": 0.85,
+  "predicted_variants": [],
+  "evolution_insights": {
+    "selection_pressure": {
+      "primary_driver": "memory_scanning_defenses",
+      "favored_mutations": [
+        "fileless_execution",
+        "memory_only_payloads"
+      ],
+      "suppressed_mutations": [
+        "file_droppers",
+        "disk_writers"
+      ]
+    },
+    "threat_landscape": {
+      "emerging_trends": [
+        "living_off_land",
+        "cross_platform",
+        "supply_chain"
+      ],
+      "declining_trends": [
+        "macro_malware",
+        "traditional_exe_droppers"
+      ],
+      "novel_techniques": [
+        "gpu_memory_extraction",
+        "secure_enclave_abuse"
+      ]
+    }
+  }
+}

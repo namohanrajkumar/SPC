@@ -1,0 +1,13 @@
+{
+  "component": "PSC (Propagation and Containment)",
+  "status": "completed",
+  "timestamp": "2026-03-11T22:47:12.080813",
+  "containment_strategies": 85,
+  "control_isolation_sets": 32,
+  "mitigation_effectiveness": 0.82,
+  "propagation_analysis": {
+    "threat_spread_rate": 0.21,
+    "containment_window_hours": 8.23,
+    "critical_control_chains": 24
+  }
+}

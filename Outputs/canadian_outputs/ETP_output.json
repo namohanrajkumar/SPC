@@ -1,0 +1,10 @@
+{
+  "component": "ETP (Evolutionary Threat Prediction)",
+  "status": "completed",
+  "timestamp": "2026-03-11T23:43:39.526968",
+  "attack_genomes_analyzed": 118,
+  "threat_predictions": 1340,
+  "high_confidence_predictions": 2268,
+  "detection_accuracy": 0.976,
+  "cic_attack_types_covered": 14
+}

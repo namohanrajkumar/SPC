@@ -1,0 +1,11 @@
+{
+  "component": "MSBB (Multi-Scale Behavioral Baselining)",
+  "status": "completed",
+  "timestamp": "2026-03-11T23:43:39.526988",
+  "cellular_anomalies": 547,
+  "tissue_anomalies": 36,
+  "organ_anomalies": 25,
+  "total_anomalies_detected": 585,
+  "health_scores": 1557,
+  "baseline_confidence": 0.888
+}

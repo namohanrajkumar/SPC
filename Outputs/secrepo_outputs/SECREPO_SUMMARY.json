@@ -1,0 +1,28 @@
+{
+  "pipeline": "SecRepo Dataset Generation and SPC Processing",
+  "timestamp": "2026-03-11T23:45:53.089774",
+  "secrepo_generation": {
+    "connection_logs": 2250,
+    "host_logs": 180,
+    "alert_logs": 1800,
+    "malware_genomes": 10,
+    "total_records": 4230,
+    "malware_families": 10,
+    "log_sources": 8,
+    "c2_protocols": 6
+  },
+  "spc_execution": {
+    "status": "success",
+    "components": 5,
+    "execution_time_seconds": 4.048
+  },
+  "output_files": {
+    "ETP_output.json": "Evolutionary Threat Prediction",
+    "DDE_output.json": "Defense Defense Evolution",
+    "QICE_output.json": "Quantum Information Correlation Engine",
+    "MSBB_output.json": "Multi-Scale Behavioral Baselining",
+    "PSC_output.json": "Predictive Surgical Containment"
+  },
+  "data_location": "/Users/harshil/SNUC_Subjects/Mohan Raj sir_Prototype/Code1/livedataoutputs/secrepo_data",
+  "output_location": "/Users/harshil/SNUC_Subjects/Mohan Raj sir_Prototype/Code1/livedataoutputs/secrepo_outputs"
+}

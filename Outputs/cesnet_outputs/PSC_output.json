@@ -1,0 +1,107 @@
+{
+  "containment_id": "PSC-CONT-20260308-233420",
+  "timestamp": "2026-03-08T23:34:20.670998",
+  "threat_prediction_id": null,
+  "status": "active",
+  "containment_analysis": {
+    "isolated_nodes": [
+      "host-003"
+    ],
+    "blocked_edges": [
+      [
+        "host-002",
+        "fileserver-01"
+      ],
+      [
+        "host-003",
+        "fileserver-01"
+      ],
+      [
+        "host-001",
+        "fileserver-01"
+      ],
+      [
+        "host-002",
+        "db-cluster"
+      ],
+      [
+        "host-003",
+        "db-cluster"
+      ],
+      [
+        "host-002",
+        "web-server"
+      ],
+      [
+        "host-003",
+        "web-server"
+      ],
+      [
+        "host-001",
+        "web-server"
+      ],
+      [
+        "host-001",
+        "db-cluster"
+      ],
+      [
+        "host-004",
+        "host-003"
+      ]
+    ],
+    "preserved_edges": 8,
+    "disruption_score": 0.2205128205128205,
+    "effectiveness_score": 0.8
+  },
+  "containment_boundary": {
+    "isolated_nodes": [
+      "host-003"
+    ],
+    "blocked_edges": [
+      {
+        "source": "host-002",
+        "target": "fileserver-01"
+      },
+      {
+        "source": "host-003",
+        "target": "fileserver-01"
+      },
+      {
+        "source": "host-001",
+        "target": "fileserver-01"
+      },
+      {
+        "source": "host-002",
+        "target": "db-cluster"
+      },
+      {
+        "source": "host-003",
+        "target": "db-cluster"
+      }
+    ],
+    "preserved_edges": 8,
+    "disruption_metrics": {
+      "nodes_affected_percent": 7.6923076923076925,
+      "users_affected": 5
+    }
+  },
+  "execution_plan": {
+    "steps": [
+      {
+        "step": 1,
+        "action": "apply_microsegmentation_policies",
+        "status": "pending"
+      },
+      {
+        "step": 2,
+        "action": "deploy_honeytokens",
+        "status": "pending"
+      },
+      {
+        "step": 3,
+        "action": "isolate_source_hosts",
+        "status": "pending"
+      }
+    ]
+  }
+}

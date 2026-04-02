@@ -1,0 +1,29 @@
+{
+  "pipeline": "LANL Dataset Generation and SPC Processing",
+  "timestamp": "2026-03-11T23:48:05.029628",
+  "lanl_generation": {
+    "process_events": 2200,
+    "host_records": 220,
+    "network_flows": 2200,
+    "attack_genomes": 10,
+    "total_records": 4620,
+    "attack_pattern_types": 10,
+    "event_sources": 8,
+    "security_controls": 8,
+    "collection_period": "56 days"
+  },
+  "spc_execution": {
+    "status": "success",
+    "components": 5,
+    "execution_time_seconds": 4.299
+  },
+  "output_files": {
+    "ETP_output.json": "Evolutionary Threat Prediction",
+    "DDE_output.json": "Defense Defense Evolution",
+    "QICE_output.json": "Quantum Information Correlation Engine",
+    "MSBB_output.json": "Multi-Scale Behavioral Baselining",
+    "PSC_output.json": "Predictive Surgical Containment"
+  },
+  "data_location": "/Users/harshil/SNUC_Subjects/Mohan Raj sir_Prototype/Code1/livedataoutputs/losalamos_data",
+  "output_location": "/Users/harshil/SNUC_Subjects/Mohan Raj sir_Prototype/Code1/livedataoutputs/losalamos_outputs"
+}

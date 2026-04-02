@@ -1,0 +1,11 @@
+{
+  "component": "PSC (Predictive Surgical Containment)",
+  "status": "completed",
+  "timestamp": "2026-03-11T23:45:53.081379",
+  "containment_strategies": 225,
+  "network_isolation_rules": 554,
+  "host_quarantine_groups": 58,
+  "c2_blocking_rules": 55,
+  "containment_effectiveness": 0.978,
+  "false_positive_rate": 0.085
+}

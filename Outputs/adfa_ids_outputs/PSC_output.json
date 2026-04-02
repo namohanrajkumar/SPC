@@ -1,0 +1,9 @@
+{
+  "component": "PSC (Propagation and Containment)",
+  "status": "completed",
+  "timestamp": "2026-03-11T23:41:16.482563",
+  "containment_strategies": 53,
+  "process_isolation_sets": 21,
+  "behavioral_firewall_rules": 117,
+  "containment_effectiveness": 0.91
+}

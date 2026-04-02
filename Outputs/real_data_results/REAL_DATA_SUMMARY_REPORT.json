@@ -1,0 +1,111 @@
+{
+  "pipeline": "Real Data SPC Processing",
+  "timestamp": "2026-03-08T23:21:01.424208",
+  "execution": {
+    "status": "success",
+    "execution_time_seconds": 4.595230340957642,
+    "return_code": 0
+  },
+  "input_data": {
+    "source": "/Users/harshil/SNUC_Subjects/Mohan Raj sir_Prototype/Input",
+    "total_files": 8,
+    "total_records": 34,
+    "file_breakdown": {
+      "MSBB_CellularScaleProcess-LevelData.json": 6,
+      "MSBB_TissueScaleHost-LevelData.json": 6,
+      "MSBB_OrganScaleNetworkSegmentData.json": 6,
+      "ETP_DefensePostureInput.json": 2,
+      "QICE_Quantum State Parameters.json": 5,
+      "DDE_InitialDefense Genome PopulationDataInput.json": 4,
+      "DDE_ Historical Performance Data.json": 1,
+      "PSC_ThreatPredictionInputVector.json": 4
+    }
+  },
+  "output_components": {
+    "QICE_output": {
+      "status": "generated",
+      "keys": [
+        "correlation_id",
+        "timestamp",
+        "clusters_detected",
+        "correlation_metrics",
+        "configuration",
+        "detected_patterns",
+        "lateral_movements"
+      ],
+      "sample": {
+        "correlation_id": "QICE-CORR-20260308-232101",
+        "timestamp": "2026-03-08T23:21:01.341781",
+        "clusters_detected": []
+      }
+    },
+    "ETP_output": {
+      "status": "generated",
+      "keys": [
+        "prediction_id",
+        "timestamp",
+        "generations_simulated",
+        "confidence_level",
+        "predicted_variants",
+        "evolution_insights"
+      ],
+      "sample": {
+        "prediction_id": "ETP-PRED-20260308-232101",
+        "timestamp": "2026-03-08T23:21:01.342013",
+        "generations_simulated": 50
+      }
+    },
+    "DDE_output": {
+      "status": "generated",
+      "keys": [
+        "component",
+        "status",
+        "error"
+      ],
+      "sample": {
+        "component": "DDE",
+        "status": "error",
+        "error": "unsupported operand type(s) for /: 'str' and 'int'"
+      }
+    },
+    "PSC_output": {
+      "status": "generated",
+      "keys": [
+        "containment_id",
+        "timestamp",
+        "threat_prediction_id",
+        "status",
+        "containment_analysis",
+        "containment_boundary",
+        "execution_plan"
+      ],
+      "sample": {
+        "containment_id": "PSC-CONT-20260308-232101",
+        "timestamp": "2026-03-08T23:21:01.345966",
+        "threat_prediction_id": null
+      }
+    },
+    "SPC_Summary": {
+      "status": "generated",
+      "keys": [
+        "execution_id",
+        "timestamp",
+        "execution_time_seconds",
+        "components_executed",
+        "status",
+        "component_status",
+        "execution_log",
+        "msbb_metrics",
+        "qice_metrics",
+        "etp_metrics",
+        "dde_metrics",
+        "psc_metrics"
+      ],
+      "sample": {
+        "execution_id": "SPC-EXEC-20260308-232101",
+        "timestamp": "2026-03-08T23:21:01.346216",
+        "execution_time_seconds": 0.012373
+      }
+    }
+  }
+}

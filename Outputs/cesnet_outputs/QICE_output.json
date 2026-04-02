@@ -1,0 +1,58 @@
+{
+  "correlation_id": "QICE-CORR-20260308-233420",
+  "timestamp": "2026-03-08T23:34:20.666077",
+  "clusters_detected": [],
+  "correlation_metrics": {
+    "total_events_processed": 3,
+    "total_clusters_found": 3,
+    "total_patterns_identified": 0
+  },
+  "configuration": {
+    "msbb": {
+      "autoencoder_dim": 128,
+      "isolation_contamination": 0.1,
+      "anomaly_threshold": 0.85,
+      "learning_rate": 0.001,
+      "training_epochs": 100
+    },
+    "etp": {
+      "population_size": 100,
+      "mutation_rate": 0.1,
+      "crossover_rate": 0.8,
+      "generations": 50,
+      "elitism_count": 5
+    },
+    "qice": {
+      "attention_heads": 8,
+      "hidden_dim": 64,
+      "correlation_threshold": 0.7,
+      "learning_rate": 0.01,
+      "training_epochs": 100
+    },
+    "dde": {
+      "population_size": 50,
+      "elitism_rate": 0.2,
+      "mutation_strength": 0.1,
+      "fitness_weights": {
+        "success": 0.7,
+        "cost": 0.2,
+        "speed": 0.1
+      }
+    },
+    "psc": {
+      "min_cut_algorithm": "edmonds_karp",
+      "containment_verification": true,
+      "fallback_expansion": true
+    },
+    "orchestrator": {
+      "security_cycle_interval": 1.0,
+      "anomaly_threshold": 0.8,
+      "correlation_threshold": 0.7,
+      "prediction_confidence_threshold": 0.8
+    },
+    "input_path": "Input",
+    "output_path": "Output"
+  },
+  "detected_patterns": [],
+  "lateral_movements": []
+}

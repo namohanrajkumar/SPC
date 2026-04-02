@@ -1,0 +1,6 @@
+{
+  "component": "MSBB (Multi-Scale Behavioral Analysis)",
+  "scales_analyzed": 5,
+  "anomalies_detected": 15,
+  "coverage": 0.75
+}

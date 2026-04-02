@@ -1,0 +1,28 @@
+{
+  "pipeline": "CIC-IDS2017 Dataset Generation and SPC Processing",
+  "timestamp": "2026-03-11T23:43:39.527703",
+  "cic_ids2017_generation": {
+    "network_flows": 4000,
+    "host_records": 200,
+    "network_segments": 40,
+    "threat_genomes": 14,
+    "total_records": 4240,
+    "attack_types_covered": 14,
+    "protocols_tracked": 3,
+    "flow_features": 21
+  },
+  "spc_execution": {
+    "status": "success",
+    "components": 5,
+    "execution_time_seconds": 6.099
+  },
+  "output_files": {
+    "ETP_output.json": "Evolutionary Threat Prediction",
+    "DDE_output.json": "Defense Defense Evolution",
+    "QICE_output.json": "Quantum Information Correlation Engine",
+    "MSBB_output.json": "Multi-Scale Behavioral Baselining",
+    "PSC_output.json": "Predictive Surgical Containment"
+  },
+  "data_location": "/Users/harshil/SNUC_Subjects/Mohan Raj sir_Prototype/Code1/livedataoutputs/canadian_data",
+  "output_location": "/Users/harshil/SNUC_Subjects/Mohan Raj sir_Prototype/Code1/livedataoutputs/canadian_outputs"
+}

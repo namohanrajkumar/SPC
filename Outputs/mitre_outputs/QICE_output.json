@@ -1,0 +1,57 @@
+{
+  "component": "QICE (Quantum Information Correlation Engine)",
+  "status": "completed",
+  "timestamp": "2026-03-08T23:52:02Z",
+  "correlations_found": 342,
+  "threat_clusters": 28,
+  "threat_actor_correlations": {
+    "highly_correlated": 12,
+    "moderately_correlated": 45,
+    "weakly_correlated": 234
+  },
+  "technique_correlations": {
+    "technique_pairs": 1523,
+    "strong_associations": 89,
+    "campaign_correlations": 234
+  },
+  "intelligence_insights": {
+    "shared_tti": 123,
+    "overlapping_targets": 567,
+    "similar_toolkits": 45
+  },
+  "correlated_threat_actors": [
+    {
+      "actor1": "APT29",
+      "actor2": "APT28",
+      "correlation_score": 0.78,
+      "shared_techniques": ["T1566", "T1059", "T1021"],
+      "shared_targets": "government, diplomatic"
+    },
+    {
+      "actor1": "APT41",
+      "actor2": "Lazarus",
+      "correlation_score": 0.65,
+      "shared_techniques": ["T1190", "T1083", "T1041"],
+      "shared_targets": "finance, technology"
+    },
+    {
+      "actor1": "APT40",
+      "actor2": "Turla",
+      "correlation_score": 0.71,
+      "shared_techniques": ["T1573", "T1021", "T1003"],
+      "shared_targets": "energy, maritime"
+    }
+  ],
+  "technique_association_matrix": {
+    "T1566_T1059": 0.94,
+    "T1059_T1021": 0.87,
+    "T1021_T1003": 0.82,
+    "T1573_T1041": 0.79,
+    "T1003_T1056": 0.76
+  },
+  "pattern_analysis": {
+    "attack_chain_patterns": 42,
+    "most_common_chain": "T1566 -> T1059 -> T1021 -> T1003",
+    "chain_frequency": 0.34
+  }
+}

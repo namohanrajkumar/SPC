@@ -1,0 +1,75 @@
+{
+  "component": "PSC (Propagation and Containment)",
+  "status": "completed",
+  "timestamp": "2026-03-08T23:52:03Z",
+  "containment_strategies": 11,
+  "network_isolation": {
+    "nodes_to_isolate": 342,
+    "segments_affected": 28,
+    "isolation_effectiveness": 0.94
+  },
+  "propagation_analysis": {
+    "threat_spread_rate": 0.34,
+    "maximum_reach": 5842,
+    "containment_window": "2.3 hours",
+    "critical_nodes": 47
+  },
+  "containment_strategies": [
+    {
+      "strategy_id": "CONT-001",
+      "name": "Network Segmentation",
+      "target_threat": "APT29",
+      "isolation_level": "high",
+      "effectiveness": 0.94,
+      "implementation_time": "15 minutes"
+    },
+    {
+      "strategy_id": "CONT-002",
+      "name": "C2 Channel Blocking",
+      "target_threat": "APT28",
+      "isolation_level": "medium",
+      "effectiveness": 0.87,
+      "implementation_time": "5 minutes"
+    },
+    {
+      "strategy_id": "CONT-003",
+      "name": "Credential Reset",
+      "target_threat": "Lazarus",
+      "isolation_level": "high",
+      "effectiveness": 0.91,
+      "implementation_time": "30 minutes"
+    },
+    {
+      "strategy_id": "CONT-004",
+      "name": "Service Isolation",
+      "target_threat": "APT41",
+      "isolation_level": "medium",
+      "effectiveness": 0.82,
+      "implementation_time": "10 minutes"
+    },
+    {
+      "strategy_id": "CONT-005",
+      "name": "Malware Quarantine",
+      "target_threat": "Multiple",
+      "isolation_level": "high",
+      "effectiveness": 0.89,
+      "implementation_time": "2 minutes"
+    }
+  ],
+  "recommended_actions": [
+    "Isolate affected network segments immediately",
+    "Deploy advanced threat detection on critical systems",
+    "Implement strict access controls",
+    "Monitor command and control channels",
+    "Block identified malware hashes and IPs",
+    "Revoke compromised credentials",
+    "Enable enhanced logging",
+    "Activate incident response procedures"
+  ],
+  "propagation_model": {
+    "days_to_full_propagation": 4.2,
+    "systems_at_risk": 5842,
+    "critical_systems_at_risk": 342,
+    "estimated_impact": "high"
+  }
+}

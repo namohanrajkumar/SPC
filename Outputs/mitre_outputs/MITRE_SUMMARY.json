@@ -1,0 +1,16 @@
+{
+  "pipeline": "MITRE ATT&CK Dataset Generation and SPC Processing",
+  "timestamp": "2026-03-08T23:52:18.068870",
+  "mitre_generation": {
+    "threat_genomes": 4998,
+    "threat_groups": 7,
+    "techniques_included": 57,
+    "tactics_included": 14,
+    "total_records": 142959
+  },
+  "spc_execution": {
+    "status": "success",
+    "execution_time_seconds": 3.285
+  },
+  "output_location": "/Users/harshil/SNUC_Subjects/Mohan Raj sir_Prototype/Code1/livedataoutputs/mitre_outputs"
+}

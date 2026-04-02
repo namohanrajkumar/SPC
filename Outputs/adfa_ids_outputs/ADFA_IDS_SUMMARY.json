@@ -1,0 +1,25 @@
+{
+  "pipeline": "ADFA-IDS Dataset Generation and SPC Processing",
+  "timestamp": "2026-03-11T23:41:16.483761",
+  "adfa_ids_generation": {
+    "process_level_traces": 1500,
+    "host_level_records": 150,
+    "network_segment_records": 30,
+    "total_records": 1680,
+    "attack_types_included": 6,
+    "system_calls_tracked": 26
+  },
+  "spc_execution": {
+    "status": "success",
+    "components": 5,
+    "execution_time_seconds": 2.099
+  },
+  "output_files": {
+    "ETP_output.json": "Evolutionary Threat Prediction",
+    "DDE_output.json": "Defense Defense Evolution",
+    "QICE_output.json": "Quantum Information Correlation Engine",
+    "MSBB_output.json": "Multi-Scale Behavioral Analysis",
+    "PSC_output.json": "Propagation and Containment Strategy"
+  },
+  "output_location": "/Users/harshil/SNUC_Subjects/Mohan Raj sir_Prototype/Code1/livedataoutputs/adfa_ids_outputs"
+}

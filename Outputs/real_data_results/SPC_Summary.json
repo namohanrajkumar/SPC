@@ -1,0 +1,70 @@
+{
+  "execution_id": "SPC-EXEC-20260308-232101",
+  "timestamp": "2026-03-08T23:21:01.346216",
+  "execution_time_seconds": 0.012373,
+  "components_executed": [
+    "msbb",
+    "qice",
+    "etp",
+    "dde",
+    "psc"
+  ],
+  "status": "completed",
+  "component_status": {
+    "msbb": "success",
+    "qice": "unknown",
+    "etp": "unknown",
+    "dde": "error",
+    "psc": "active"
+  },
+  "execution_log": [
+    {
+      "timestamp": "2026-03-08T23:21:01.335318",
+      "message": "DDE initialized with defense population"
+    },
+    {
+      "timestamp": "2026-03-08T23:21:01.340893",
+      "message": "Initialization error: 'str' object has no attribute 'get'"
+    },
+    {
+      "timestamp": "2026-03-08T23:21:01.341147",
+      "message": "MSBB completed: {'hosts_analyzed': 1, 'anomalies_detected': 0, 'health_score': 0.7073333333333334}"
+    },
+    {
+      "timestamp": "2026-03-08T23:21:01.341785",
+      "message": "QICE completed: 0 patterns detected"
+    },
+    {
+      "timestamp": "2026-03-08T23:21:01.343509",
+      "message": "ETP completed: 0 variants predicted"
+    },
+    {
+      "timestamp": "2026-03-08T23:21:01.343885",
+      "message": "DDE error: unsupported operand type(s) for /: 'str' and 'int'"
+    },
+    {
+      "timestamp": "2026-03-08T23:21:01.345982",
+      "message": "PSC completed: 1 nodes isolated"
+    }
+  ],
+  "msbb_metrics": {
+    "hosts_analyzed": 1,
+    "anomalies_detected": 0,
+    "health_score": 0.7073333333333334
+  },
+  "qice_metrics": {
+    "clusters_detected": 0,
+    "patterns": 0
+  },
+  "etp_metrics": {
+    "variants_predicted": 0
+  },
+  "dde_metrics": {
+    "generation": 0,
+    "population_size": 0
+  },
+  "psc_metrics": {
+    "nodes_isolated": 1,
+    "effectiveness": 0.8
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "component": "DDE",
+  "status": "error",
+  "error": "unsupported operand type(s) for /: 'str' and 'int'"
+}

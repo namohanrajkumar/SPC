@@ -1,0 +1,25 @@
+{
+  "pipeline": "NIST Cybersecurity Dataset Generation and SPC Processing",
+  "timestamp": "2026-03-11T22:47:12.082220",
+  "nist_generation": {
+    "defense_genomes": 19992,
+    "control_families": 17,
+    "population_size": 300,
+    "evolution_configurations": 100,
+    "evolved_defenses": 5000,
+    "total_records": 25392
+  },
+  "spc_execution": {
+    "status": "success",
+    "components": 5,
+    "execution_time_seconds": 3.357
+  },
+  "output_files": {
+    "ETP_output.json": "Evolutionary Threat Prediction",
+    "DDE_output.json": "Defense Defense Evolution",
+    "QICE_output.json": "Quantum Information Correlation Engine",
+    "MSBB_output.json": "Multi-Scale Behavioral Analysis",
+    "PSC_output.json": "Propagation and Containment Strategy"
+  },
+  "output_location": "/Users/harshil/SNUC_Subjects/Mohan Raj sir_Prototype/Code1/livedataoutputs/nist_outputs"
+}

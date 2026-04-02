@@ -1,0 +1,26 @@
+{
+  "pipeline": "ToN-IoT Dataset Generation and SPC Processing",
+  "timestamp": "2026-03-11T22:28:30.282839",
+  "toniot_generation": {
+    "network_nodes": 173,
+    "network_edges": 345,
+    "telemetry_records": 25346,
+    "network_flows": 8448,
+    "audit_logs": 8000,
+    "threat_predictions": 6000,
+    "total_records": 47794
+  },
+  "spc_execution": {
+    "status": "success",
+    "components": 5,
+    "execution_time_seconds": 4.926
+  },
+  "output_files": {
+    "ETP_output.json": "Evolutionary Threat Prediction",
+    "DDE_output.json": "Defense Defense Evolution",
+    "QICE_output.json": "Quantum Information Correlation Engine",
+    "MSBB_output.json": "Multi-Scale Behavioral Analysis",
+    "PSC_output.json": "Propagation and Containment Strategy"
+  },
+  "output_location": "/Users/harshil/SNUC_Subjects/Mohan Raj sir_Prototype/Code1/livedataoutputs/toniot_output"
+}

@@ -1,0 +1,14 @@
+{
+  "component": "MSBB (Multi-Scale Behavioral Analysis)",
+  "status": "completed",
+  "timestamp": "2026-03-11T22:47:12.080799",
+  "anomalies_detected": 274,
+  "behavioral_patterns": 235,
+  "control_effectiveness_scores": 190,
+  "risk_assessment": {
+    "critical": 33,
+    "high": 61,
+    "medium": 147,
+    "low": 207
+  }
+}

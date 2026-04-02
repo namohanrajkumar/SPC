@@ -1,0 +1,11 @@
+{
+  "component": "MSBB (Multi-Scale Behavioral Baselining)",
+  "status": "completed",
+  "timestamp": "2026-03-11T23:48:05.029042",
+  "process_level_anomalies": 1444,
+  "host_level_anomalies": 196,
+  "network_segment_anomalies": 95,
+  "total_anomalies": 2446,
+  "behavioral_baselines": 2624,
+  "baseline_confidence": 0.846
+}

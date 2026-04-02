@@ -1,0 +1,17 @@
+{
+  "pipeline": "EMBER Dataset Generation and SPC Processing",
+  "timestamp": "2026-03-08T23:47:04.540425",
+  "ember_generation": {
+    "samples_generated": 5000,
+    "malware_samples": 2491,
+    "benign_samples": 2509,
+    "malware_families": 7,
+    "feature_dimension": 100,
+    "total_records": 12659
+  },
+  "spc_execution": {
+    "status": "success",
+    "execution_time_seconds": 3.719399929046631
+  },
+  "output_location": "/Users/harshil/SNUC_Subjects/Mohan Raj sir_Prototype/Code1/livedataoutputs/ember_outputs"
+}

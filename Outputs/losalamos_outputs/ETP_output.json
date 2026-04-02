@@ -1,0 +1,11 @@
+{
+  "component": "ETP (Evolutionary Threat Prediction)",
+  "status": "completed",
+  "timestamp": "2026-03-11T23:48:05.029019",
+  "attack_patterns_analyzed": 118,
+  "threat_predictions": 4762,
+  "high_confidence_predictions": 3945,
+  "mitre_techniques_covered": 90,
+  "mitre_tactics_covered": 14,
+  "detection_rate": 0.911
+}
